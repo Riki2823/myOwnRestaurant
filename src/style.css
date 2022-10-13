@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 body{
     margin: 0;
     background-color: black;
+    font-family: 'Abril Fatface', cursive;
 }
 
 
@@ -88,5 +90,29 @@ nav{
       opacity:1;
       transform:translateY(0);
     }
+
+    
   }
-  
+
+#aboutUs{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    border-radius: 7px;
+}
+
+#aboutUs h1{
+    color: #fca404;
+    font-family: 'Anton', sans-serif;
+}
+
+#aboutUs p{
+    margin-top: 2%;
+}
+
+#woodWall{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+}
