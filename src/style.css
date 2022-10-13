@@ -30,8 +30,8 @@ nav{
     width: 100%;
     top:50px;
     text-align:center;
-}
-nav a{
+  }
+  nav a{
     font-weight:500;
     text-transform:uppercase;
     text-decoration:none;
@@ -41,7 +41,7 @@ nav a{
     letter-spacing:1px;
     position:relative;
     display:inline-block;
-}
+  }
   nav a:before{
     content:'';
     position: absolute;
@@ -50,12 +50,12 @@ nav a{
     background:#16151b;
     top:47%;
     animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-}
-nav a:hover:before{
+  }
+  nav a:hover:before{
     animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
   
-}
-@keyframes in{
+  }
+  @keyframes in{
     0%{
       width: 0;
       left:0;
@@ -66,8 +66,8 @@ nav a:hover:before{
       right:auto;
       width: 100%;
     }
-}
-@keyframes out{
+  }
+  @keyframes out{
     0%{
       width:100%;
       left: auto;
@@ -78,7 +78,7 @@ nav a:hover:before{
       left: auto;
       right: 0;
     }
-}
+  }
   @keyframes show{
     0%{
       opacity:0;
@@ -88,5 +88,29 @@ nav a:hover:before{
       opacity:1;
       transform:translateY(0);
     }
+
+    
   }
-  
+
+#aboutUs{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    border-radius: 7px;
+}
+
+#aboutUs h1{
+    color: #fca404;
+    font-family: 'Anton', sans-serif;
+}
+
+#aboutUs p{
+    margin-top: 2%;
+}
+
+#woodWall{
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+}
