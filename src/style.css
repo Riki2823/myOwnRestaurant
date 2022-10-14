@@ -16,6 +16,7 @@ section{
   margin-left: 10%;
   margin-right: 10%;
 }
+
 header section{
     background-color: white;
     padding: 2%;
@@ -50,7 +51,7 @@ nav{
     text-decoration:none;
     color:#16151b;
     margin:0 15px;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     letter-spacing:1px;
     position:relative;
     display:inline-block;
@@ -182,6 +183,7 @@ nav{
   border-radius: 0.4vw;
   border-style: solid;
   background-size: 100%;
+  
 }
 
 #exterior{
@@ -194,3 +196,4 @@ nav{
   background-attachment: fixed;
   opacity: 0.25;
 }
+
