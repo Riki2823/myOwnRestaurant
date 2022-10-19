@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+
+/*Tablet*/
 @media only screen and (min-width: 600px) {
   * {
     margin: 0;
@@ -28,6 +30,9 @@
     border-radius: 2vh;
     flex-direction: column;
     margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+
   }
   
   nav a{
@@ -44,6 +49,70 @@
   nav a:hover{
     color: #fca404;
   }
+
+  #exterior{
+    background-image: url(./img/exterior.jpg);
+    width: 97vw;
+    height: 70vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    background-attachment: fixed;
+    opacity: 0.25;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+  }
+}
+
+#aboutUs{
+  background-color: white;
+  text-align: center;
+  width: 100%;
+  padding: 2%;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: #fca404;
+  font-size: 1.5vw;
+}
+
+#aboutUs h1{
+  color: #fca404;
+  font-family: 'Anton', sans-serif;
+}
+
+#aboutUs p{
+  margin-top: 2%;
+}
+
+#menuStarts{
+  margin-top: 5%;
+  background-color: #fca404;
+  border-style: solid;
+  border-width: 7px;
+  border-color: white;
+  border-radius: 5vh;
+  padding: 2%;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.5vw;
+}
+
+#menuStarts a{
+  color: black;
+  font-family: 'Anton', sans-serif;
+  text-decoration: none;
+}
+
+#menuStarts a:hover{
+  color: white;
+  font-family: 'Anton', sans-serif;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
 }
 
 
@@ -57,7 +126,7 @@
 
 
 
-
+/*PC*/
 @media only screen and (min-width: 1011px) {
   * {
     margin: 0;
@@ -88,6 +157,7 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 5%;
+    align-items: center;
   }
   
   nav a{
@@ -116,24 +186,4 @@
     opacity: 0.25;
   }
 
-  #aboutUs{
-    background-color: white;
-    text-align: center;
-    width: 100%;
-    padding: 2%;
-    border-radius: 7px;
-    border-style: solid;
-    border-width: 7px;
-    border-color: #fca404;
-    font-size: 1vw;
-  }
-
-  #aboutUs h1{
-    color: #fca404;
-    font-family: 'Anton', sans-serif;
-  }
-
-  #aboutUs p{
-    margin-top: 2%;
-  }
 }
