@@ -1,69 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
-
-/*Tablet*/
-@media only screen and (min-width: 600px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  #logoContainer{
-    margin: 2%;
-  }
-  
-  body{
-    background-color: black;
-    font-family: 'Abril Fatface', cursive;
-  }
-  
-  section{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  
-  nav{
-    background-color: white;
-    padding: 2%;
-    display: flex;
-    text-align: center;
-    border-radius: 2vh;
-    flex-direction: column;
-    margin-bottom: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
-
-  }
-  
-  nav a{
-    text-transform:uppercase;
-    text-decoration:none;
-    color:#16151b;
-    font-size: 100%;
-    letter-spacing:1px;
-    position:relative;
-    display:inline-block;
-    margin-top: 2%;
-  }
-  
-  nav a:hover{
-    color: #fca404;
-  }
-
-  #exterior{
-    background-image: url(./img/exterior.jpg);
-    width: 97vw;
-    height: 70vh;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 5%;
-    background-attachment: fixed;
-    opacity: 0.25;
-    background-size:100% auto;
-    background-repeat: no-repeat;
-  }
-}
-
 #aboutUs{
   background-color: white;
   text-align: center;
@@ -115,6 +50,25 @@ a:visited{
   color: black;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#logoContainer{
+  margin: 2%;
+}
+
+body{
+  background-color: black;
+  font-family: 'Abril Fatface', cursive;
+}
+
+section{
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 
 
@@ -122,10 +76,49 @@ a:visited{
 
 
 
+/*Tablet*/
+@media only screen and (min-width: 600px) {
+  nav{
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    border-radius: 2vh;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
 
+  }
+  
+  nav a{
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#16151b;
+    font-size: 100%;
+    letter-spacing:1px;
+    position:relative;
+    display:inline-block;
+    margin-top: 2%;
+  }
+  
+  nav a:hover{
+    color: #fca404;
+  }
 
-
-
+  #exterior{
+    background-image: url(./img/exterior.jpg);
+    width: 97vw;
+    height: 70vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    background-attachment: fixed;
+    opacity: 0.25;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+  }
+}
 /*PC*/
 @media only screen and (min-width: 1011px) {
   * {
