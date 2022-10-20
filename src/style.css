@@ -121,6 +121,63 @@ section{
 #mapContainer p img{
   margin-left: 4%;
 }
+
+
+
+/*-----------------------------------------------------*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  background-color: black;
+  color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.container form label{
+  background-color: white;
+  border-radius: 5px;
+  padding: 1%;
+}
+input[type=submit] {
+  background-color:white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  width: 50%;
+  border-radius: 5px;
+  background-image: url(./img/woodWAll.jpg);
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.container h1{
+  margin-bottom: 3%;
+  background-color: white;
+  text-align: center;
+  padding: 1%;
+  border-radius: 6px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+
+
 /*Tablet*/
 @media only screen and (min-width: 600px) {
   .aboutUs{
