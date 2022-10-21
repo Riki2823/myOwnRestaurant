@@ -95,7 +95,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="formSection">
         <div class="container">
           <h1>Contacta con nosotros para reservar!!!</h1>
           <form action="post">
@@ -108,13 +108,22 @@
             <input type="text" id="lname" name="lastname" placeholder="Introduce tus apellidos, ej: Villanueva Alhama">
             <br>
             <br>
+            <label for="tlf">Teléfono</label>
+            <input type="number" placeholder="Introduce un numero de tlf de contacto" name="tlf" id="tlf">
+            <br>
+            <br>
             <label for="fechaReserva">Fecha de Reserva</label>
             <input type="date" name="fechaReserva" id="fechaReserva">
             <br>
             <br>
-            <label for="tlf">Teléfono</label>
-            <input type="number" placeholder="Introduce un numero de tlf de contacto" name="tlf" id="tlf">
-            
+            <label for="time">Hora de reserva</label>
+            <input type="time" name="time" id="time">
+            <br>
+            <br>
+            <label for="pax">Nº Personas</label>
+            <input type="number" placeholder="Introduce el numero de comensales" name="pax" id="pax">
+            <br>
+            <br>            
             <input type="submit" value="Submit">
         
           </form>
