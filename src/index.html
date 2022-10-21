@@ -79,7 +79,7 @@
 
       <section>
         <div id="mapContainer">
-            <h1>Ven a visitarnos!!</h1>
+            <h1>¿¿Donde estamos??</h1>
             <p>Plaça de la Porta Pintada, 8, 07002 Palma, Illes Balears <img id="locationImg" src="./img/location.png" alt="location" height="5%" width="5%"> </p>
             <div id="map">
                 <iframe
@@ -98,24 +98,23 @@
       <section>
         <div class="container">
           <h1>Contacta con nosotros para reservar!!!</h1>
-          <form action="action_page.php">
-        
+          <form action="post">
+            <br>
             <label for="fname">Nombre</label>
             <input type="text" id="fname" name="firstname" placeholder="Introduce tu nombre, ej: Ricardo">
-        
+            <br>
+            <br>
             <label for="lname">Apellidos</label>
             <input type="text" id="lname" name="lastname" placeholder="Introduce tus apellidos, ej: Villanueva Alhama">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
+            <br>
+            <br>
+            <label for="fechaReserva">Fecha de Reserva</label>
+            <input type="date" name="fechaReserva" id="fechaReserva">
+            <br>
+            <br>
+            <label for="tlf">Teléfono</label>
+            <input type="number" placeholder="Introduce un numero de tlf de contacto" name="tlf" id="tlf">
+            
             <input type="submit" value="Submit">
         
           </form>
