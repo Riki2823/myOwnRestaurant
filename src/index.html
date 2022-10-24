@@ -79,19 +79,28 @@
 
       <section>
         <div id="mapContainer">
-            <h1>¿¿Donde estamos??</h1>
-            <p>Plaça de la Porta Pintada, 8, 07002 Palma, Illes Balears <img id="locationImg" src="./img/location.png" alt="location" height="5%" width="5%"> </p>
-            <div id="map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3086306481096!2d2.6505863156038862!3d39.57519411431037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792514ca8c2ed%3A0xc15a1d1a6a923725!2sEs%20Trasto!5e0!3m2!1ses!2ses!4v1665669034158!5m2!1ses!2ses"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  height='465px'
-                  width='470px'
-                ></iframe>
-              </div>
+          <h1>¿¿Donde estamos??</h1>
+          <p>
+            Plaça de la Porta Pintada, 8, 07002 Palma, Illes Balears
+            <img
+              id="locationImg"
+              src="./img/location.png"
+              alt="location"
+              height="5%"
+              width="5%"
+            />
+          </p>
+          <div id="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.3086306481096!2d2.6505863156038862!3d39.57519411431037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129792514ca8c2ed%3A0xc15a1d1a6a923725!2sEs%20Trasto!5e0!3m2!1ses!2ses!4v1665669034158!5m2!1ses!2ses"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              height="465px"
+              width="470px"
+            ></iframe>
+          </div>
         </div>
       </section>
 
@@ -99,38 +108,92 @@
         <div class="container">
           <h1>Contacta con nosotros para reservar!!!</h1>
           <form action="post">
-            <br>
+            <br />
             <label for="fname">Nombre</label>
-            <input type="text" id="fname" name="firstname" placeholder="Introduce tu nombre, ej: Ricardo">
-            <br>
-            <br>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Introduce tu nombre, ej: Ricardo"
+            />
+            <br />
+            <br />
             <label for="lname">Apellidos</label>
-            <input type="text" id="lname" name="lastname" placeholder="Introduce tus apellidos, ej: Villanueva Alhama">
-            <br>
-            <br>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Introduce tus apellidos, ej: Villanueva Alhama"
+            />
+            <br />
+            <br />
             <label for="tlf">Teléfono</label>
-            <input type="number" placeholder="Introduce un numero de tlf de contacto" name="tlf" id="tlf">
-            <br>
-            <br>
+            <input
+              type="number"
+              placeholder="Introduce un numero de tlf de contacto"
+              name="tlf"
+              id="tlf"
+            />
+            <br />
+            <br />
             <label for="fechaReserva">Fecha de Reserva</label>
-            <input type="date" name="fechaReserva" id="fechaReserva">
-            <br>
-            <br>
+            <input type="date" name="fechaReserva" id="fechaReserva" />
+            <br />
+            <br />
             <label for="time">Hora de reserva</label>
-            <input type="time" name="time" id="time">
-            <br>
-            <br>
+            <input type="time" name="time" id="time" />
+            <br />
+            <br />
             <label for="pax">Nº Personas</label>
-            <input type="number" placeholder="Introduce el numero de comensales" name="pax" id="pax">
-            <br>
-            <br>            
-            <input type="submit" value="Submit">
-        
+            <input
+              type="number"
+              placeholder="Introduce el numero de comensales"
+              name="pax"
+              id="pax"
+            />
+            <br />
+            <br />
+            <input type="submit" value="Submit" />
           </form>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div id="footerContainer">
+
+        <img src="./img/logo.png" alt="logo" id="logoFoot">   
+
+        <p>&copy Ricardo Villanueva Alhama</p>
+        
+        <p>
+          Horario:
+          <br>
+          <br> 
+          Domingo a Jueves: 9:00 - 16:00-----17:00 - 23:00  
+          <br>
+          Viernes y Sábado: 9:00 - 16:00-----17:00 - 24:00
+        </p>
+
+        <div id="socialMedia">
+          
+          <a href="https://www.facebook.com/estrasto" target="_blank"
+            ><img class="mediaLogo" src="./img/facebook.png" alt="facebook"
+          /></a>
+          
+          <a
+            href="https://www.instagram.com/estrastopalma/"
+            target="_blank"
+            ><img class="mediaLogo" src="./img/intagram.png" alt="instagram"
+          /></a>
+          
+          <a href="https://www.tripadvisor.es/Restaurant_Review-g187463-d10631108-Reviews-Es_Trasto-Palma_de_Mallorca_Majorca_Balearic_Islands.html" target="_blank"
+            ><img class="mediaLogo" src="./img/tripadv.png" alt="tripadvisot"
+          /></a>
+        
+        </div>
+      
+      </div>
+    </footer>
   </body>
 </html>
