@@ -73,7 +73,7 @@ section{
 
 #map {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%; 
   padding-top: 25px;
   height: 0;
 }
@@ -86,6 +86,7 @@ section{
 }
 
 #mapContainer{
+  border-radius: 4px;
   background-image: url(./img/woodWAll.jpg);
   padding: 8%;
   background-repeat: no-repeat;
@@ -122,10 +123,6 @@ section{
 #mapContainer p img{
   margin-left: 4%;
 }
-
-
-
-/*-----------------------------------------------------*/
 
 input[type=text], input[type=date], input[type=number], input[type=time],select, textarea {
   width: 100%;
@@ -175,141 +172,6 @@ input[type=submit] {
   border-radius: 6px;
   margin-left: 10%;
   margin-right: 10%;
-}
-
-#footerContainer{
-  background-color: #3A3A3A;
-  width: 100%;
-  margin-top: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 2%;
-  color: white;
-}
-
-
-.mediaLogo{
-  height: 50px;
-  width: 50px;
-}
-
-
-#logoFoot{
-  width: 10%;
-  height: 10%;
-}
-
-#socialMedia{
-  display: flex;
-  justify-content: space-around;
-  width: 15%;
-}
-/*PC*/
-@media only screen and (min-width: 1011px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  #logoContainer{
-    margin: 2%;
-  }
-
-  body{
-    background-color: black;
-    font-family: 'Abril Fatface', cursive;
-  }
-  
-  section{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  
-  nav{
-    background-color: white;
-    padding: 2%;
-    display: flex;
-    text-align: center;
-    border-radius: 2vh;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 5%;
-    align-items: center;
-  }
-  
-  nav a{
-    text-transform:uppercase;
-    text-decoration:none;
-    color:#16151b;
-    font-size: 100%;
-    letter-spacing:1px;
-    position:relative;
-    display:inline-block;
-    margin: 0 2%;
-  }
-  
-  nav a:hover{
-    color: #fca404;
-  }
-  
-  #exterior{
-    background-image: url(./img/exterior.jpg);
-    width: 98vw;
-    height: 70vh;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 5%;
-    background-attachment: fixed;
-    opacity: 0.25;
-  }
-}
-/*Tablet*/
-@media only screen and (min-width: 600px) {
-  .aboutUs{
-    margin-top: 0%;
-  }
-  nav{
-    background-color: white;
-    padding: 2%;
-    display: flex;
-    text-align: center;
-    border-radius: 2vh;
-    flex-direction: column;
-    margin-bottom: 5%;
-    margin-right: 15%;
-    margin-left: 15%;
-
-  }
-  
-  nav a{
-    text-transform:uppercase;
-    text-decoration:none;
-    color:#16151b;
-    font-size: 100%;
-    letter-spacing:1px;
-    position:relative;
-    display:inline-block;
-    margin-top: 2%;
-  }
-  
-  nav a:hover{
-    color: #fca404;
-  }
-
-  #exterior{
-    background-image: url(./img/exterior.jpg);
-    width: 97vw;
-    height: 70vh;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 5%;
-    background-attachment: fixed;
-    opacity: 0.25;
-    background-size:100% auto;
-    background-repeat: no-repeat;
-  }
 }
 /*Phone*/
 @media only screen and (min-width: 200px) {
@@ -372,5 +234,201 @@ input[type=submit] {
     opacity: 0.25;
     background-size:100% auto;
     background-repeat: no-repeat;
+  }
+  #footerContainer{
+    background-color: #3A3A3A;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    color: white;
+    align-items: center;
+    gap: 5vh;
+  }
+  
+  
+  .mediaLogo{
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  #logoFoot{
+    width: 20%;
+    height: 20%;
+  }
+  
+  #socialMedia{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 600px) {
+  .aboutUs{
+    margin-top: 0%;
+  }
+  nav{
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    border-radius: 2vh;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+
+  }
+  
+  nav a{
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#16151b;
+    font-size: 100%;
+    letter-spacing:1px;
+    position:relative;
+    display:inline-block;
+    margin-top: 2%;
+  }
+  
+  nav a:hover{
+    color: #fca404;
+  }
+
+  #exterior{
+    background-image: url(./img/exterior.jpg);
+    width: 97vw;
+    height: 70vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    background-attachment: fixed;
+    opacity: 0.25;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+  }
+
+  #footerContainer{
+    background-color: #3A3A3A;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    color: white;
+    align-items: center;
+    gap: 5vh;
+  }
+  
+  
+  .mediaLogo{
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  #logoFoot{
+    width: 20%;
+    height: 20%;
+  }
+  
+  #socialMedia{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+
+}
+/*PC*/
+@media only screen and (min-width: 1011px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #logoContainer{
+    margin: 2%;
+  }
+
+  body{
+    background-color: black;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  section{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  nav{
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    border-radius: 2vh;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5%;
+    align-items: center;
+  }
+  
+  nav a{
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#16151b;
+    font-size: 100%;
+    letter-spacing:1px;
+    position:relative;
+    display:inline-block;
+    margin: 0 2%;
+  }
+  
+  nav a:hover{
+    color: #fca404;
+  }
+  
+  #exterior{
+    background-image: url(./img/exterior.jpg);
+    width: 98vw;
+    height: 70vh;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+    background-attachment: fixed;
+    opacity: 0.25;
+  }
+
+  #footerContainer{
+    background-color: #3A3A3A;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+    color: white;
+  }
+  
+  
+  .mediaLogo{
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+  #logoFoot{
+    width: 10%;
+    height: 10%;
+  }
+  
+  #socialMedia{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
   }
 }
