@@ -12,7 +12,44 @@ body{
 #home{
     background-color: #fca404;
     margin: 3%;
-    padding: 2%;
+    padding: 1%;
     border-radius: 5px;
-    width: 8%;
+    width: 5%;
+
+}
+#mainContainer{
+    margin-top: 0%; 
+    background-color: white;
+    margin: 3%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+}
+
+.menuSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.productDiv{
+    margin: 2%;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    display: inline-block;
+    border-radius: 10px;
+    flex-basis: 20%;
+    
+}
+
+.productDiv img{
+    border-radius: 60% 10% 60% 60%;
+    size: auto;
+    margin-bottom: 5%;
 }
