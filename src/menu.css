@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
   }
 body{
     background-color: black;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto Mono', monospace;
 }
 #home{
     background-color: #fca404;
@@ -30,14 +29,14 @@ hr{
     background-color: black;
 }
 
-.menuSection{
+.menuDiv{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
 }
-.productDiv{
+.productArticle{
     margin: 2%;
     background-color: black;
     color: white;
@@ -48,8 +47,12 @@ hr{
     
 }
 
-.productDiv img{
+.productArticle img{
     border-radius: 60% 10% 60% 60%;
     size: auto;
     margin-bottom: 5%;
+}
+
+.productArticle p{
+    letter-spacing: 1.5px;
 }
