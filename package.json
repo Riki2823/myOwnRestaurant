@@ -1,5 +1,6 @@
 {
     "name": "myownrestaurant",
+    "source": "src/index.html",
     "version": "1.0.0",
     "devDependencies": {
         "@parcel/transformer-webmanifest": "^2.7.0",
@@ -7,6 +8,7 @@
         "prettier": "^2.7.1"
     },
     "scripts": {
-        "start": "npx parcel src/index.html"
+        "start": "parcel",
+        "build": "parcel build"
     }
 }
