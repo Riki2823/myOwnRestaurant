@@ -36,6 +36,10 @@
     margin-top: 2%;
   }
   
+  #logo{
+    width: 150px;
+    height: 50px;
+  }
   #menuStarts{
     margin-top: 5%;
     background-color: #fca404;
